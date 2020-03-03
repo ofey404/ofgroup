@@ -4,7 +4,7 @@
 @Author: Ofey Chan
 @Date: 2020-03-03 16:57:09
 @LastEditors: Ofey Chan
-@LastEditTime: 2020-03-03 17:00:56
+@LastEditTime: 2020-03-03 20:13:36
 @Description: 
 @Reference: 
 '''
@@ -19,7 +19,7 @@ with open("LICENSE") as f:
 
 setup(
     name="ofgroup",
-    version="0.0.0",
+    version="0.0.1",
     description="Ofey Chan's Group Theory Module for class of Fudan University 2020 Spring.",
     long_description=readme,
     author="Ofey Chan",
