@@ -2,7 +2,7 @@
 @Author: Ofey Chan
 @Date: 2020-03-03 16:50:33
 @LastEditors: Ofey Chan
-@LastEditTime: 2020-03-03 20:06:53
+@LastEditTime: 2020-03-04 09:28:16
 @Description: Shared class of ofgroup package.
 @Reference: 
 '''
@@ -87,7 +87,7 @@ class FiniteGroup():
                 return testElement
         raise Exception("No inverse Element of element:\n{}".format(element))
 
-    def printMultiplicationTable(self):
+    def printableMultiplicationTable(self):
         """Print multiplication table of current group object.
         Call `__str__()` method of element.
         Use prettytable package to format.
@@ -99,4 +99,4 @@ class FiniteGroup():
                 [str(leftElement)] + 
                 [str(leftElement*rightElement) for rightElement in self.allElements]
                 )
-        print(table)
+        return table
